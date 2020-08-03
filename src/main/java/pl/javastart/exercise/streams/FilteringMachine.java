@@ -15,6 +15,7 @@ public class FilteringMachine {
         return numberList.stream()
                 .filter(number -> number < 20)
                 .collect(Collectors.toList());
+
     }
 
     public List<Book> convertToBooks(List<String> titles) {
