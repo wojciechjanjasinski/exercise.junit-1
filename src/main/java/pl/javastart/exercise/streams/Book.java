@@ -26,4 +26,11 @@ public class Book {
     @Override public int hashCode() {
         return title.hashCode();
     }
+
+    @Override
+    public String toString() {
+        return "Book{" +
+                "title='" + title + '\'' +
+                '}';
+    }
 }
